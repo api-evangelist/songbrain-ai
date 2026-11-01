@@ -64,21 +64,31 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Songbrain AI provides an AI-powered music video generation platform that analyzes songs to identify their strongest moments, beats, and mood, then creates beat‑synced video shot plans for creators. Users can generate up to five free song analyses per month, with paid options for higher volume and additional video direction features. The service offers a public API for developers to integrate music analysis into their own video tools, complete with example endpoints, documentation, and a Postman collection. Songbrain AI aims to simplify the creation of engaging music videos by leveraging AI to decode song DNA and automate visual storytelling.
+Songbrain is the one-click music video for your song. Upload a song and Songbrain reads its beat, structure, lyrics, mood and best moment. Free: the analysis plus 7 ready-to-post vertical reels, including a storyboard video drawn from the lyrics. Paid: an AI music video with 8 AI-generated scenes directed from the lyrics, cut on the beat, with karaoke lyrics, for 350 credits (under $10). Built for indie and AI (Suno, Udio) artists.
 
-**Areas:** Company · AI · Music · Video · API
+**Areas:** AI · Music · Video · SaaS · Generation
 
 ## songbrain-ai on APIs.io
 
 Everything profiled for songbrain-ai is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/songbrain-ai/](https://apis.io/providers/songbrain-ai/)** — or go straight to one of the APIs or properties below.
 
-### APIs (1)
+### APIs (5)
 
-- [Songbrain API](https://apis.io/apis/songbrain-ai/songbrain-api/) — Music analysis API for AI video generation
+- [songbrain-ai About API](https://apis.io/apis/songbrain-ai/songbrain-ai-about-api/) — The About API from songbrain-ai — 3 operation(s) for about.
+- [songbrain-ai Account API](https://apis.io/apis/songbrain-ai/songbrain-ai-account-api/) — The Account API from songbrain-ai — 1 operation(s) for account.
+- [songbrain-ai Examples (no key) API](https://apis.io/apis/songbrain-ai/songbrain-ai-examples-no-key-api/) — The Examples (no key) API from songbrain-ai — 3 operation(s) for examples (no key).
+- [songbrain-ai Songs API](https://apis.io/apis/songbrain-ai/songbrain-ai-songs-api/) — The Songs API from songbrain-ai — 4 operation(s) for songs.
+- [songbrain-ai Webhooks API](https://apis.io/apis/songbrain-ai/songbrain-ai-webhooks-api/) — The Webhooks API from songbrain-ai — 2 operation(s) for webhooks.
 
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Songbrain Ai Agentic Access](https://apis.io/agentic-access/songbrain-ai/songbrain-ai-agentic-access/)
 
 #### JSON-LD (1)
 
@@ -92,13 +102,20 @@ Spectral rulesets for the provider's contracts.
 
 - [songbrain-ai API Rules](https://apis.io/rules/songbrain-ai/songbrain-ai-rules/)
 
-#### Security (3)
+#### Security (4)
 
 Authentication, trust centre, and vulnerability disclosure.
 
+- [Songbrain Ai Authentication](https://apis.io/security/songbrain-ai/songbrain-ai-authentication/)
 - [Songbrain Ai Domain Security](https://apis.io/security/songbrain-ai/songbrain-ai-domain-security/)
 - [Songbrain Ai Trust Center](https://apis.io/security/songbrain-ai/songbrain-ai-trust-center/)
 - [Songbrain Ai Vulnerability Disclosure](https://apis.io/security/songbrain-ai/songbrain-ai-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Songbrain Ai Scopes](https://apis.io/scopes/songbrain-ai/songbrain-ai-scopes/)
 
 #### Plans and pricing (1)
 
@@ -106,16 +123,21 @@ Published plans, tiers and prices.
 
 - [Songbrain Ai Plans Pricing](https://apis.io/plans/songbrain-ai/songbrain-ai-plans-pricing/)
 
+#### Rate limits (1)
+
+Published request limits.
+
+- [Songbrain Ai Rate Limits](https://apis.io/rate-limits/songbrain-ai/songbrain-ai-rate-limits/)
+
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://songbrain.ai/)
-- [Documentation](https://www.songbrain.ai/docs/api)
+- [Documentation](https://www.songbrain.ai/api-access)
 - [Getting started](https://www.songbrain.ai/api-access)
-- [API reference](https://api.songbrain.ai/v1/openapi.json)
+- [API reference](https://www.songbrain.ai/api-access)
 - [Pricing](https://www.songbrain.ai/pricing)
-- [Support](https://www.songbrain.ai/faq)
 - [Changelog](https://www.songbrain.ai/docs/api/changelog)
 - [Blog](https://www.songbrain.ai/blog)
 - [Security](https://www.songbrain.ai/security)
@@ -126,44 +148,44 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 51.8** — developing · rubric 0.25.0 · scored 2026-10-30
+**Kin Score 70.8** — exemplar · rubric 0.25.0 · scored 2026-10-30
 
 | Facet | Score |
 |---|---|
 | Discoverability | 65.0 |
-| Contract quality | 6.7 |
+| Contract quality | 47.4 |
 | Contract governance | 79.1 |
-| Operational transparency | 42.1 |
-| Developer ergonomics | 45.2 |
+| Operational transparency | 61.1 |
+| Developer ergonomics | 66.0 |
 | Access clarity | 88.9 |
 
-**Agent readiness 4.6** — human-only
+**Agent readiness 52.0** — agent-native
 
 | Agent-readiness dimension | Result |
 |---|---|
-| Spec Presence | — |
-| Agentic Access | — |
+| Spec Presence | yes |
+| Agentic Access | unknown |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
-| Auth Clarity | — |
-| Idempotency | derived (partial credit) |
-| Error Semantics | derived (partial credit) |
-| OpenAPI Examples | — |
-| Rate Limit Signal | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
 | Event Surface Described | — |
-| Agent Skills | — |
+| Agent Skills | unknown |
 | Well Known Catalog | — |
 | Consent Identity | — |
 | Agent Card | — |
-| Dry Run Mode | — |
+| Dry Run Mode | yes |
 | Delegated Identity | — |
 | Protected Resource Metadata | — |
 | Dynamic Client Registration | — |
 | Agentic Commerce | — |
 | Pagination Ratio | na |
-| Operation Distinctiveness | na |
+| Operation Distinctiveness | distinct |
 
-**Regulatory alignment 27.3** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 41.8** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/songbrain-ai/](https://apis.io/providers/songbrain-ai/).
 
